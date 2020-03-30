@@ -1,0 +1,14 @@
+# Spring properties
+spring:
+  application:
+    name: eureka  # Identify this application
+
+# Server
+server:
+  port: 8761   # HTTP (Tomcat) port
+
+# Discovery Server Access
+eureka:
+  client:
+    register-with-eureka: false
+    fetch-registry: false
